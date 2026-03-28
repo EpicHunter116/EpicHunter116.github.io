@@ -55,13 +55,13 @@
                         <td>Portfolio Website</td>
                         <td>A responsive personal portfolio website showcasing projects, skills, and contact information
                             with modern design and smooth transitions.</td>
-                        <td><img src="https://via.placeholder.com/200x150?text=Portfolio" alt="Portfolio Project"></td>
+                        <td><img src="portfolio.jpg" alt="Portfolio Project"></td>
                     </tr>
                     <tr>
                         <td>Task Management App</td>
                         <td>A full-stack web application for managing daily tasks with features including task creation,
                             editing, deletion, and priority levels.</td>
-                        <td><img src="https://via.placeholder.com/200x150?text=Task+App" alt="Task App Project"></td>
+                        <td><img src="task.jpg" alt="Task App Project"></td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -76,6 +76,27 @@
         <section id="contact">
             <h2>Contact</h2>
             <p>Feel free to reach out if you have questions or would like to connect.</p>
+            <form id="contact-form" action="#" method="post">
+                <div class="form-row">
+                    <label for="sender-name">Name</label>
+                    <input type="text" id="sender-name" name="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="sender-email">Email</label>
+                    <input type="email" id="sender-email" name="email" required>
+                </div>
+                <div class="form-row">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <div class="form-row">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
         </section>
 
     </main>
